@@ -3,7 +3,7 @@ package wappalyzer
 import (
 	"bytes"
 	"encoding/json"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -93,7 +93,7 @@ func (s *Wappalyze) loadFingerprints() error {
 					log.Printf("Warning: Could not read fingerprints file from %s: %s. Using default fingerprints.", filePath, resp.Status)
 					fingerprintsData = []byte(fingerprints)
 				} else {
-					fingerprintsData, err = ioutil.ReadAll(resp.Body)
+					fingerprintsData, err = io.ReadAll(resp.Body)
 					if err != nil {
 						log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
 						fingerprintsData = []byte(fingerprints)
