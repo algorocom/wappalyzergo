@@ -3,7 +3,9 @@ package wappalyzer
 import (
 	"bytes"
 	"encoding/json"
+	"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"strings"
 )
@@ -43,18 +45,72 @@ func New() (*Wappalyze, error) {
 //	}
 
 // loadFingerprints loads the fingerprints and compiles them
+// func (s *Wappalyze) loadFingerprints() error {
+// 	filePath := os.Getenv("FINGERPRINTS_PATH")
+// 	var fingerprintsData []byte
+// 	var err error
+
+// 	if filePath != "" {
+// 		fingerprintsData, err = os.ReadFile(filePath)
+// 		if err != nil {
+// 			log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
+// 			fingerprintsData = []byte(fingerprints)
+// 		} else {
+// 			log.Printf("Info: Loaded fingerprints from %s", filePath)
+// 		}
+// 	} else {
+// 		log.Println("Warning: FINGERPRINTS_PATH environment variable not set. Using default fingerprints.")
+// 		fingerprintsData = []byte(fingerprints)
+// 	}
+
+// 	var fingerprintsStruct Fingerprints
+// 	err = json.Unmarshal(fingerprintsData, &fingerprintsStruct)
+// 	if err != nil {
+// 		return err
+// 	}
+
+// 	for i, fingerprint := range fingerprintsStruct.Apps {
+// 		s.fingerprints.Apps[i] = compileFingerprint(fingerprint)
+// 	}
+// 	return nil
+// }
+
 func (s *Wappalyze) loadFingerprints() error {
 	filePath := os.Getenv("FINGERPRINTS_PATH")
 	var fingerprintsData []byte
 	var err error
 
 	if filePath != "" {
-		fingerprintsData, err = os.ReadFile(filePath)
-		if err != nil {
-			log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
-			fingerprintsData = []byte(fingerprints)
+		if strings.HasPrefix(filePath, "http://") || strings.HasPrefix(filePath, "https://") {
+			// Read from URL
+			resp, err := http.Get(filePath)
+			if err != nil {
+				log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
+				fingerprintsData = []byte(fingerprints)
+			} else {
+				defer resp.Body.Close()
+				if resp.StatusCode != http.StatusOK {
+					log.Printf("Warning: Could not read fingerprints file from %s: %s. Using default fingerprints.", filePath, resp.Status)
+					fingerprintsData = []byte(fingerprints)
+				} else {
+					fingerprintsData, err = ioutil.ReadAll(resp.Body)
+					if err != nil {
+						log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
+						fingerprintsData = []byte(fingerprints)
+					} else {
+						log.Printf("Info: Loaded fingerprints from %s", filePath)
+					}
+				}
+			}
 		} else {
-			log.Printf("Info: Loaded fingerprints from %s", filePath)
+			// Read from local file
+			fingerprintsData, err = os.ReadFile(filePath)
+			if err != nil {
+				log.Printf("Warning: Could not read fingerprints file from %s: %v. Using default fingerprints.", filePath, err)
+				fingerprintsData = []byte(fingerprints)
+			} else {
+				log.Printf("Info: Loaded fingerprints from %s", filePath)
+			}
 		}
 	} else {
 		log.Println("Warning: FINGERPRINTS_PATH environment variable not set. Using default fingerprints.")
