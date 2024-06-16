@@ -331,6 +331,7 @@
             ],
             "description": "AMP for WordPress automatically adds Accelerated Mobile Pages (Google AMP Project) functionality to your WordPress site.",
             "website": "https://amp-wp.org",
+            "cpe": "cpe:2.3:a:ampforwp:accelerated_mobile_pages:*:*:*:*:*:wordpress:*:*",
             "icon": "Accelerated-Mobile-Pages.svg"
         },
         "AOLserver": {
@@ -457,6 +458,7 @@
             ],
             "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources.",
             "website": "https://aws.amazon.com/certificate-manager/",
+            "cpe": "cpe:2.3:a:awstats:awstats:*:*:*:*:*:*:*:*",
             "icon": "AWS Certificate Manager.svg"
         },
         "AWS WAF Captcha": {
@@ -4497,6 +4499,7 @@
             ],
             "description": "Promise based HTTP client for the browser and node.js",
             "website": "https://github.com/axios/axios",
+            "cpe": "cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*",
             "icon": "Axios.svg"
         },
         "Azion": {
@@ -5428,6 +5431,7 @@
             ],
             "description": "Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
             "website": "https://en.wikipedia.org/wiki/Bitcoin",
+            "cpe": "cpe:2.3:a:bitcoin:bitcoin:*:*:*:*:*:*:*:*",
             "icon": "Bitcoin.svg"
         },
         "BiteSpeed": {
@@ -9035,6 +9039,7 @@
             },
             "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
             "website": "https://www.cloudflare.com",
+            "cpe": "cpe:2.3:a:cloudflare:cloudflare:*:*:*:*:*:*:*:*",
             "icon": "CloudFlare.svg"
         },
         "Cloudflare Bot Management": {
@@ -11658,6 +11663,7 @@
             ],
             "description": "A modern runtime for JavaScript and TypeScript.",
             "website": "https://deno.land",
+            "cpe": "cpe:2.3:a:deno:deno:*:*:*:*:*:*:*:*",
             "icon": "deno.svg"
         },
         "Deno Deploy": {
@@ -12675,6 +12681,7 @@
                 95
             ],
             "website": "https://www.dropbox.com",
+            "cpe": "cpe:2.3:a:dropbox:dropbox:*:*:*:*:*:*:*:*",
             "icon": "Dropbox.svg"
         },
         "Dropzone": {
@@ -12862,6 +12869,17 @@
             "description": "Duopana is a platform for creating online communities, blogs and managing collaborative content.",
             "website": "https://duopana.com",
             "icon": "Duopana.svg"
+        },
+        "Dynamic Conditions": {
+            "cats": [
+                5,
+                87
+            ],
+            "scriptSrc": [
+                "dynamic-conditions-public\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+            ],
+            "description": "Dynamic Conditions of Widgets is a cutting-edge WordPress plugin that extends the functionality of your website using conditional logic.",
+            "website": "https://wordpress.org/plugins/dynamicconditions"
         },
         "Dynamic Yield": {
             "cats": [
@@ -14745,6 +14763,14 @@
             "website": "https://extendthemes.com/mesmerize",
             "icon": "ExtendThemes.svg"
         },
+        "Extendify": {
+            "cats": [
+                87
+            ],
+            "description": "Extendify is a popular platform used by WordPress site owners to create high-performing and highly-aesthetic websites with ease.",
+            "website": "https://extendify.com",
+            "icon": "Extendify.png"
+        },
         "Extole": {
             "cats": [
                 94,
@@ -15125,6 +15151,7 @@
             },
             "description": "Fastly is a cloud computing services provider. Fastly's cloud platform provides a content delivery network, Internet security services, load balancing, and video \u0026 streaming services.",
             "website": "https://www.fastly.com",
+            "cpe": "cpe:2.3:a:fastly:fastly:*:*:*:*:*:*:*:*",
             "icon": "Fastly.svg"
         },
         "Fastspring": {
@@ -18734,6 +18761,7 @@
             ],
             "description": "Grafana is a multi-platform open source analytics and interactive visualisation web application.",
             "website": "https://grafana.com",
+            "cpe": "cpe:2.3:a:grafana:grafana:*:*:*:*:*:*:*:*",
             "icon": "Grafana.svg"
         },
         "Graffiti CMS": {
@@ -18827,6 +18855,7 @@
             },
             "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.",
             "website": "https://graphql.org",
+            "cpe": "cpe:2.3:a:graphql:graphql:*:*:*:*:*:*:*:*",
             "icon": "GraphQL.svg"
         },
         "Graphene": {
@@ -19844,6 +19873,7 @@
             ],
             "description": "Hexo is a blog framework powered by Node.js.",
             "website": "https://hexo.io",
+            "cpe": "cpe:2.3:a:hexo:hexo:*:*:*:*:*:node.js:*:*",
             "icon": "Hexo.png"
         },
         "Hextom Free Shipping Bar": {
@@ -20160,6 +20190,7 @@
             },
             "description": "Hostinger is an employee-owned Web hosting provider and internet domain registrar.",
             "website": "https://www.hostinger.com",
+            "cpe": "cpe:2.3:a:hostinger:hostinger:*:*:*:*:*:*:*:*",
             "icon": "Hostinger.svg"
         },
         "Hostinger CDN": {
@@ -22334,6 +22365,7 @@
             ],
             "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
             "website": "https://jitsi.org",
+            "cpe": "cpe:2.3:a:jitsi:jitsi:*:*:*:*:*:*:*:*",
             "icon": "Jitsi.png"
         },
         "Jive": {
@@ -22363,6 +22395,7 @@
             ],
             "description": "JivoChat is a live chat solution for websites offering customizable web and mobile chat widgets.",
             "website": "https://www.jivosite.com",
+            "cpe": "cpe:2.3:a:jivochat:jivochat:*:*:*:*:*:*:*:*",
             "icon": "JivoChat.png"
         },
         "Jivox": {
@@ -23169,6 +23202,7 @@
             ],
             "description": "Keybase is for keeping everyone's chats and files safe, from families to communities to companies. MacOS, Windows, Linux, iPhone, and Android.",
             "website": "https://keybase.io/",
+            "cpe": "cpe:2.3:a:keybase:keybase:*:*:*:*:*:*:*:*",
             "icon": "Keybase.svg"
         },
         "Kibana": {
@@ -24981,6 +25015,7 @@
             ],
             "description": "LiveZilla is a web-based live support platform.",
             "website": "https://www.livezilla.net",
+            "cpe": "cpe:2.3:a:livezilla:livezilla:*:*:*:*:*:*:*:*",
             "icon": "LiveZilla.png"
         },
         "Livefyre": {
@@ -28236,6 +28271,7 @@
             ],
             "description": "MonsterInsights is the most popular Google Analytics plugin for WordPress.",
             "website": "https://www.monsterinsights.com",
+            "cpe": "cpe:2.3:a:monsterinsights:monsterinsights:*:*:*:*:*:wordpress:*:*",
             "icon": "MonsterInsights.png"
         },
         "MooTools": {
@@ -28250,6 +28286,7 @@
                 "mootools.*\\.js"
             ],
             "website": "https://mootools.net",
+            "cpe": "cpe:2.3:a:mootools:mootools:*:*:*:*:*:*:*:*",
             "icon": "MooTools.png"
         },
         "Moodle": {
@@ -28376,6 +28413,7 @@
                 "jQuery"
             ],
             "website": "https://motocms.com",
+            "cpe": "cpe:2.3:a:motocms:motocms:*:*:*:*:*:*:*:*",
             "icon": "MotoCMS.svg"
         },
         "Mountain": {
@@ -29665,6 +29703,7 @@
             ],
             "description": "Notion is a collaboration platform with modified Markdown support that integrates kanban boards, tasks, wikis, and database.",
             "website": "https://notion.so",
+            "cpe": "cpe:2.3:a:notion:notion:*:*:*:*:*:*:*:*",
             "icon": "Notion.svg"
         },
         "Nudgify": {
@@ -30591,6 +30630,7 @@
             ],
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
             "website": "https://opencv.org",
+            "cpe": "cpe:2.3:a:opencv:opencv:*:*:*:*:*:*:*:*",
             "icon": "OpenCV.svg"
         },
         "OpenCart": {
@@ -30766,6 +30806,7 @@
             ],
             "description": "OpenStreetMap is a free, editable map of the whole world that is being built by volunteers largely from scratch and released with an open-content license.",
             "website": "https://www.openstreetmap.org",
+            "cpe": "cpe:2.3:a:openstreetmap:openstreetmap:*:*:*:*:*:wordpress:*:*",
             "icon": "OpenStreetMap.svg"
         },
         "OpenSwoole": {
@@ -31784,6 +31825,18 @@
             "website": "https://pagefly.io",
             "icon": "pagefly.png"
         },
+        "PageLayer": {
+            "cats": [
+                5,
+                87
+            ],
+            "scriptSrc": [
+                "pagelayer(?:-frontend)?(?:\\/js)?(?:\\/combined)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+            ],
+            "description": "Drag and drop page builder for Wordpress.",
+            "website": "https://wordpress.org/plugins/pagelayer",
+            "icon": "PageLayer.png"
+        },
         "Pagefai CMS": {
             "cats": [
                 1
@@ -32521,6 +32574,7 @@
             ],
             "description": "Perfmatters is a performance optimisation plugin for WordPress websites.",
             "website": "https://perfmatters.io",
+            "cpe": "cpe:2.3:a:perfmatters:perfmatters:*:*:*:*:*:wordpress:*:*",
             "icon": "Perfmatters.svg"
         },
         "Performance Lab": {
@@ -33158,6 +33212,7 @@
             ],
             "description": "PixelyourSite is now probably the most complex tracking tool for WordPress, managing the Facebook Pixel, Google Analytics, Google Ads Remarketing, Pinterest Tag, Bing Tag, and virtually any other script.",
             "website": "https://www.pixelyoursite.com",
+            "cpe": "cpe:2.3:a:pixelyoursite:pixelyoursite:*:*:*:*:*:wordpress:*:*",
             "icon": "PixelYourSite.png"
         },
         "Pixieset Store": {
@@ -33460,6 +33515,7 @@
             ],
             "description": "Plupload is JavaScript API for building file uploaders.",
             "website": "https://www.plupload.com/",
+            "cpe": "cpe:2.3:a:plupload:plupload:*:*:*:*:*:*:*:*",
             "icon": "plupload.png"
         },
         "Plyr": {
@@ -33715,6 +33771,7 @@
             ],
             "description": "PostHog is the open-source, all-in-one product analytics platform.",
             "website": "https://posthog.com",
+            "cpe": "cpe:2.3:a:posthog:posthog:*:*:*:*:*:*:*:*",
             "icon": "PostHog.svg"
         },
         "PostNL": {
@@ -34248,6 +34305,7 @@
             ],
             "description": "ProfilePress is a WordPress registration plugin that lets you create login forms, registration forms, user profiles, and more.",
             "website": "https://profilepress.net",
+            "cpe": "cpe:2.3:a:profilepress:profilepress:*:*:*:*:*:wordpress:*:*",
             "icon": "ProfilePress.svg"
         },
         "Profitwell": {
@@ -34733,6 +34791,7 @@
             ],
             "description": "PyScript is a python script that can be run in the browser using a mix of Python and standard HTML.",
             "website": "https://pyscript.net",
+            "cpe": "cpe:2.3:a:pyscript:pyscript:*:*:*:*:*:*:*:*",
             "icon": "PyScript.svg"
         },
         "Pygments": {
@@ -34998,6 +35057,7 @@
             ],
             "description": "Question2Answer (Q2A) is a popular open-source Q\u0026A platform for PHP/MySQL.",
             "website": "https://www.question2answer.org",
+            "cpe": "cpe:2.3:a:question2answer:question2answer:*:*:*:*:*:*:*:*",
             "icon": "question2answer.png"
         },
         "Queue-it": {
@@ -35221,6 +35281,7 @@
             ],
             "description": "REDAXO is a content management system that provides business optimisation through web projects and output codes.",
             "website": "https://redaxo.org",
+            "cpe": "cpe:2.3:a:redaxo:redaxo:*:*:*:*:*:*:*:*",
             "icon": "REDAXO.png"
         },
         "REG.RU": {
@@ -37075,6 +37136,7 @@
             ],
             "description": "Rocket.Chat is a communication hub that facilitates team collaboration and organizes conversations.",
             "website": "https://rocket.chat",
+            "cpe": "cpe:2.3:a:rocket.chat:rocket.chat:*:*:*:*:*:*:*:*",
             "icon": "Rocket.Chat.svg"
         },
         "Rocketfy": {
@@ -43038,6 +43100,7 @@
                 "\u003c!-- powered by strikingly\\.com"
             ],
             "website": "https://strikingly.com",
+            "cpe": "cpe:2.3:a:strikingly:strikingly:*:*:*:*:*:*:*:*",
             "icon": "Strikingly.png"
         },
         "Stripe": {
@@ -43061,6 +43124,7 @@
             ],
             "description": "Stripe offers online payment processing for internet businesses as well as fraud prevention, invoicing and subscription management.",
             "website": "https://stripe.com",
+            "cpe": "cpe:2.3:a:stripe:stripe:*:*:*:*:*:*:*:*",
             "icon": "Stripe.svg"
         },
         "StrutFit": {
@@ -45699,6 +45763,7 @@
                 ]
             },
             "website": "https://tomatocart.com",
+            "cpe": "cpe:2.3:a:tomatocart:tomatocart:*:*:*:*:*:*:*:*",
             "icon": "TomatoCart.png"
         },
         "TornadoServer": {
@@ -46491,6 +46556,7 @@
             ],
             "description": "Twik provides a automated, no-configuration business intelligence \u0026 personalization automation engine.",
             "website": "https://www.twik.io/",
+            "cpe": "cpe:2.3:a:twiki:twiki:-:*:*:*:*:*:*:*",
             "icon": "Twik.svg"
         },
         "Twikoo": {
@@ -46830,6 +46896,7 @@
             },
             "description": "Unix is a family of multitasking, multiuser computer operating systems.",
             "website": "https://unix.org",
+            "cpe": "cpe:2.3:o:unix:unix:*:*:*:*:*:*:*:*",
             "icon": "UNIX.png"
         },
         "UPS": {
@@ -47023,6 +47090,7 @@
             ],
             "description": "Umbraco is an open-source Microsoft ASP.NET based content management system.",
             "website": "https://umbraco.com/",
+            "cpe": "cpe:2.3:a:umbraco:umbraco:*:*:*:*:*:*:*:*",
             "icon": "Umbraco.svg"
         },
         "UmiJs": {
@@ -48203,6 +48271,7 @@
                 "Joomla"
             ],
             "website": "https://virtuemart.net",
+            "cpe": "cpe:2.3:a:virtuemart:virtuemart:*:*:*:*:*:joomla\\!:*:*",
             "icon": "VirtueMart.png"
         },
         "Virtuoso": {
@@ -49044,6 +49113,7 @@
             ],
             "description": "WPForms is a drag and drop WordPress form builder.",
             "website": "https://wpforms.com",
+            "cpe": "cpe:2.3:a:wpforms:wpforms:*:*:*:*:pro:wordpress:*:*",
             "icon": "WPForms.svg"
         },
         "WPML": {
@@ -49064,6 +49134,7 @@
             },
             "description": "WPML plugin makes it possible to build and run fully multilingual WordPress sites.",
             "website": "https://wpml.org/",
+            "cpe": "cpe:2.3:a:wpml:wpml:*:*:*:*:*:wordpress:*:*",
             "icon": "WPML.svg"
         },
         "WPMU DEV Smush": {
@@ -49368,6 +49439,7 @@
             ],
             "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.",
             "website": "https://webassembly.org/",
+            "cpe": "cpe:2.3:a:webassembly:webassembly:*:*:*:*:*:*:*:*",
             "icon": "WebAssembly.svg"
         },
         "WebEngage": {
@@ -49674,6 +49746,7 @@
             ],
             "description": "Webmin is a free, open-source application for Linux server administration.",
             "website": "https://www.webmin.com",
+            "cpe": "cpe:2.3:a:webmin:webmin:*:*:*:*:*:*:*:*",
             "icon": "Webmin.png"
         },
         "Webolytics": {
@@ -50057,6 +50130,7 @@
             },
             "description": "WikkaWiki is an open-source wiki application written in PHP.",
             "website": "https://wikkawiki.org",
+            "cpe": "cpe:2.3:a:wikkawiki:wikkawiki:*:*:*:*:*:*:*:*",
             "icon": "WikkaWiki.png"
         },
         "WildJar": {
@@ -50122,6 +50196,7 @@
             ],
             "description": "Wink Toolkit is a JavaScript toolkit used to build mobile web apps.",
             "website": "https://winktoolkit.org",
+            "cpe": "cpe:2.3:a:wink:wink:*:*:*:*:*:android:*:*",
             "icon": "Wink.png"
         },
         "Winstone Servlet Container": {
@@ -50330,6 +50405,7 @@
             },
             "description": "WooCommerce is an open-source ecommerce plugin for WordPress.",
             "website": "https://woocommerce.com",
+            "cpe": "cpe:2.3:a:woocommerce:woocommerce:*:*:*:*:*:wordpress:*:*",
             "icon": "WooCommerce.svg"
         },
         "WooCommerce Blocks": {
@@ -50569,6 +50645,7 @@
             ],
             "description": "Wordfence is a security plugin for sites that use WordPress. Wordfence includes an endpoint firewall and malware scanner.",
             "website": "https://www.wordfence.com",
+            "cpe": "cpe:2.3:a:wordfence:wordfence:*:*:*:*:*:wordpress:*:*",
             "icon": "Wordfence.svg"
         },
         "Wordfence Login Security": {
@@ -50822,6 +50899,7 @@
                 "PHP"
             ],
             "website": "https://xoops.org",
+            "cpe": "cpe:2.3:a:xoops:xoops:*:*:*:*:*:*:*:*",
             "icon": "XOOPS.png"
         },
         "XRegExp": {
@@ -50867,6 +50945,7 @@
             ],
             "description": "XWiki is a free wiki software platform written in Java.",
             "website": "https://www.xwiki.org",
+            "cpe": "cpe:2.3:a:xwiki:xwiki:*:*:*:*:*:*:*:*",
             "icon": "xwiki.png"
         },
         "Xajax": {
@@ -50877,6 +50956,7 @@
                 "xajax_core.*\\.js"
             ],
             "website": "https://xajax-project.org",
+            "cpe": "cpe:2.3:a:xajax:xajax:*:*:*:*:*:*:*:*",
             "icon": "Xajax.png"
         },
         "Xanario": {
@@ -50912,6 +50992,7 @@
             ],
             "description": "XenForo is a PHP-based forum hosting program for communities that is designed to be deployed on a remote web server.",
             "website": "https://xenforo.com",
+            "cpe": "cpe:2.3:a:xenforo:xenforo:*:*:*:*:*:*:*:*",
             "icon": "XenForo.png"
         },
         "Xeora": {
@@ -50942,6 +51023,7 @@
                 "server": "xitami(?:/([\\d.]+))?\\;version:\\1"
             },
             "website": "https://xitami.com",
+            "cpe": "cpe:2.3:a:xitami:xitami:*:*:*:*:*:*:*:*",
             "icon": "Xitami.png"
         },
         "Xonic": {
@@ -50972,6 +51054,7 @@
                 ]
             },
             "website": "https://www.xpressengine.com/",
+            "cpe": "cpe:2.3:a:xpressengine:xpressengine:*:*:*:*:*:*:*:*",
             "icon": "XpressEngine.png"
         },
         "Xpresslane": {
@@ -51089,6 +51172,7 @@
                 "powered by \u003ca href=\"[^\u003e]+yabbforum"
             ],
             "website": "https://www.yabbforum.com",
+            "cpe": "cpe:2.3:a:yabb:yabb:*:*:*:*:*:*:*:*",
             "icon": "YaBB.png"
         },
         "Yahoo Advertising": {
@@ -51292,6 +51376,7 @@
             },
             "description": "Yaws (Yet Another Web Server) is an open-source web server designed to deliver dynamic content efficiently. It was developed by Claes (klacke) Wikström and is written in Erlang, a functional programming language.",
             "website": "https://github.com/erlyaws/yaws",
+            "cpe": "cpe:2.3:a:yaws:yaws:*:*:*:*:*:*:*:*",
             "icon": "Yaws.png"
         },
         "Ycode": {
@@ -52284,6 +52369,7 @@
                 "server": "^zope/"
             },
             "website": "https://zope.org",
+            "cpe": "cpe:2.3:a:zope:zope:*:*:*:*:*:*:*:*",
             "icon": "Zope.png"
         },
         "Zotabox": {
@@ -52866,6 +52952,7 @@
                 "PHP"
             ],
             "website": "https://e107.org",
+            "cpe": "cpe:2.3:a:e107:e107:*:*:*:*:*:*:*:*",
             "icon": "e107.png"
         },
         "eBay Partner Network": {
@@ -53258,6 +53345,7 @@
                 "Python"
             ],
             "website": "https://gunicorn.org",
+            "cpe": "cpe:2.3:a:gunicorn:gunicorn:*:*:*:*:*:*:*:*",
             "icon": "gunicorn.png"
         },
         "h5ai": {
@@ -53491,6 +53579,7 @@
             ],
             "description": "ikiwiki is a free and open-source wiki application.",
             "website": "https://ikiwiki.info",
+            "cpe": "cpe:2.3:a:ikiwiki:ikiwiki:*:*:*:*:*:*:*:*",
             "icon": "ikiwiki.png"
         },
         "imagesLoaded": {
@@ -53963,6 +54052,7 @@
             },
             "description": "Lighttpd is an open-source web server optimised for speed-critical environment.",
             "website": "https://www.lighttpd.net",
+            "cpe": "cpe:2.3:a:lighttpd:lighttpd:*:*:*:*:*:*:*:*",
             "icon": "lighttpd.svg"
         },
         "lit-element": {
@@ -54392,6 +54482,7 @@
                 "Perl"
             ],
             "website": "https://www.otrs.com",
+            "cpe": "cpe:2.3:a:otrs:otrs:*:*:*:*:*:*:*:*",
             "icon": "otrs.png"
         },
         "ownCloud": {
@@ -54410,6 +54501,7 @@
                 "PHP"
             ],
             "website": "https://owncloud.org",
+            "cpe": "cpe:2.3:a:owncloud:owncloud:*:*:*:*:*:*:*:*",
             "icon": "ownCloud.png"
         },
         "p5.js": {
@@ -54516,6 +54608,7 @@
             ],
             "description": "phpAlbum is an open-source PHP script which allows you to create your personal photo album.",
             "website": "https://phpalbum.net",
+            "cpe": "cpe:2.3:a:phpalbum:phpalbum:*:*:*:*:*:*:*:*",
             "icon": "phpAlbum.png"
         },
         "phpBB": {
@@ -54644,6 +54737,7 @@
                 "SQLite"
             ],
             "website": "https://phpsqlitecms.net",
+            "cpe": "cpe:2.3:a:phpsqlitecms:phpsqlitecms:*:*:*:*:*:*:*:*",
             "icon": "phpSQLiteCMS.png"
         },
         "phpwind": {
@@ -54663,6 +54757,7 @@
                 "PHP"
             ],
             "website": "https://www.phpwind.net",
+            "cpe": "cpe:2.3:a:phpwind:phpwind:*:*:*:*:*:*:*:*",
             "icon": "phpwind.png"
         },
         "pickadate.js": {
@@ -54852,6 +54947,7 @@
                 "/(?:scriptaculous|protoaculous)(?:\\.js|/)"
             ],
             "website": "https://script.aculo.us",
+            "cpe": "cpe:2.3:a:script.aculo.us:script.aculo.us:*:*:*:*:*:*:*:*",
             "icon": "script.aculo.us.png"
         },
         "scrollreveal": {
