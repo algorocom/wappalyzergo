@@ -25573,7 +25573,7 @@
                 31
             ],
             "headers": {
-                "x-cdn": "incapsula",
+                "x-cdn": "^imperva",
                 "x-iinfo": ""
             },
             "scriptSrc": [
