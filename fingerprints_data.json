@@ -26613,7 +26613,7 @@
                 31
             ],
             "headers": {
-                "x-cdn": "^imperva",
+                "x-cdn": "incapsula",
                 "x-iinfo": ""
             },
             "scriptSrc": [
@@ -53247,7 +53247,7 @@
             ],
             "description": "SonarQube is an open-source platform for the continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages.",
             "website": "https://www.sonarqube.org/",
-            "icon": "sonar.svg"
+            "icon": "SonarQube.svg"
         },
         "Sonobi": {
             "cats": [
